@@ -1,12 +1,17 @@
 /*------------------------------
 =BASIC SETUP
 ------------------------------*/
+
 @font-face {
-   font-family: myFont;
-   src: url("../Fonts/coffee+teademo-Regular.ttf");
+    font-family: 'MyFont';
+    src: url('../fonts/coffee+teademo-Regular.ttf') format('truetype');
 }
 
 /* Makeshift CSS Reset */
+@font-face {
+    font-family: 'BrookeS8';
+    src: url('../fonts/BrookeS8.ttf') format('truetype');
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -21,7 +26,7 @@ body {
 	margin: 0 auto;
 	padding: 22px 0;
 	width: 940px;
-	font: 13px/22px myFont,Helvetica, Arial, sans-serif;
+	font: 13px/22px BrookeS8,Helvetica, Arial, sans-serif;
 	background: #F0F0F0;
 }
 
